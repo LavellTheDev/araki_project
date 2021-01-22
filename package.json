@@ -1,0 +1,22 @@
+{
+  "name": "araki-project",
+  "version": "1.0.0",
+  "description": "Araki Project by TresStudios",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LavellTheDev/araki_project.git"
+  },
+  "author": "TresStudios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LavellTheDev/araki_project/issues"
+  },
+  "homepage": "https://github.com/LavellTheDev/araki_project#readme",
+  "dependencies": {
+    "tailwindcss": "^2.0.2"
+  }
+}
