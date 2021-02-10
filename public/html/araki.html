@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../css/style.css" />
     <link href="../css/tailwind.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/araki.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,700;0,800;1,400;1,600;1,700&display=swap"
@@ -42,7 +43,8 @@
         <h1 class="text-6xl my-8 font-medium">Araki Project</h1>
         <p class="text-lg"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis ligula felis, in molestie metus dapibus eu. Vivamus et vulputate nunc. Quisque sit amet tincidunt nisl, sit amet accumsan quam. Proin mi diam, dapibus sed velit vitae, volutpat egestas ligula. Sed ut mauris sed dolor lobortis posuere. Suspendisse potenti. Pellentesque non libero ut nibh tristique laoreet. Integer tempus lorem pharetra ex interdum, eget semper ante commodo. Suspendisse tincidunt vehicula luctus. </p>
       </section>
-      <section class="text-gray-600 body-font bg-yellow-100">
+      <section class="features text-gray-600 body-font bg-yellow-100">
+        <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
           <div
             class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto"
@@ -58,14 +60,14 @@
               1
             </div>
             <div
-              class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+              class="featured-image-container gs_reveal gs_reveal_fromLeft card-container flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
             >
               <div
                 class="overflow-hidden flex-shrink-0 w-44 h-44 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
               >
                 <img src="https://images.unsplash.com/photo-1601823984263-b87b59798b70?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80" alt="">
               </div>
-              <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <div class="ipsType_left flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
                   Shooting Stars
                 </h2>
@@ -88,7 +90,7 @@
               2
             </div>
             <div
-              class="flex-grow md:pl-8 pl-6 flex sm:items-center items-end flex-col sm:flex-row"
+              class="featured-image-container gs_reveal gs_reveal_fromRight card-container flex-grow md:pl-8 pl-6 flex sm:items-center items-end flex-col sm:flex-row"
             >
               <div
                 class="overflow-hidden flex-shrink-0 w-44 h-44 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
@@ -118,7 +120,7 @@
               3
             </div>
             <div
-              class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+              class="featured-image-container gs_reveal gs_reveal_fromLeft card-container flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
             >
               <div
                 class="overflow-hidden flex-shrink-0 w-44 h-44 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
@@ -148,7 +150,7 @@
               4
             </div>
             <div
-              class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+              class="featured-image-container gs_reveal gs_reveal_fromRight card-container flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
             >
               <div
                 class="overflow-hidden flex-shrink-0 w-44 h-44 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
@@ -168,6 +170,7 @@
             </div>
           </div>
         </div>
+      </div>
       </section>
       <footer class="text-gray-600 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
@@ -207,5 +210,10 @@
         </div>
       </footer>
     </section>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+  <script src="../../src/js/araki.js" charset="utf-8"></script>
   </body>
 </html>
