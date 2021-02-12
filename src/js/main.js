@@ -8,5 +8,3 @@ hmBrgrToggle.onclick = function(){
       hmBrgrMenu.style.display = "none"
   }
 }
-
-if 
