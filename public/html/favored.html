@@ -42,7 +42,7 @@
 
 
 
-    <svg id="hmBrgr" class="ham ham3" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+    <svg id="hmBrgr" class="ham ham3 float-right" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
       <path
             class="line top"
             d="m 70,33 h -40 c -11.092231,0 11.883874,13.496726 -3.420361,12.956839 -0.962502,-2.089471 -2.222071,-3.282996 -4.545687,-3.282996 -2.323616,0 -5.113897,2.622752 -5.113897,7.071068 0,4.448316 2.080609,7.007933 5.555839,7.007933 2.401943,0 2.96769,-1.283974 4.166879,-3.282995 2.209342,0.273823 4.031294,1.642466 5.857227,-0.252538 v -13.005715 16.288404 h 7.653568" />
@@ -56,7 +56,7 @@
 
 
 
-    <nav id="hmBrgrMenu" class="absolute top-40 right-0 text-left rounded bg-red-700 z-10">
+    <nav id="hmBrgrMenu" class="absolute top-40 right-0 text-left rounded bg-red-700 z-10 hidden"> <!--Remove the hidden -->
       <ul>
         <h2>Shop</h2>
         <hr>
@@ -81,10 +81,10 @@
 
 
     <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="container px-5 md:py-24 mx-auto flex flex-wrap">
         <div class="w-full lg:w-full  mx-auto">
           <div class="flex flex-wrap w-full py-60 px-10 relative mb-2">
-            <img alt="gallery" class="w-full object-cover h-full object-center block absolute inset-0 z-10" src="../image/banner.png">
+            <img alt="gallery" id="banner" class="absolute lg:-top-36 lg:left-48 lg:w-3/5 z-10" src="../image/banner.png">
             <img alt="gallery" class="w-full object-cover h-full object-center block absolute inset-0" src="../image/GeneralGoodsStoreFloor1.png">
             <div class="text-center relative z-10 w-full">
             </div>
