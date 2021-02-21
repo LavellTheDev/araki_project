@@ -1,0 +1,31 @@
+body{
+  background-image: url("../image/tsunami_halfed.png");
+}
+
+.floating{
+  animation: hover 5s infinite;
+  animation-timing-function: ease;
+}
+
+.shadow{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: block;
+  height: 20px;
+  width: 90px;
+  animation: scale 5s infinite;
+  animation-timing-function: ease;
+  transform-origin: 50% 50%;
+  }
+
+@keyframes hover{
+  0%{transform: translateY(0%);}
+  50%{transform: translateY(-10%);}
+  100%{transform: translateY(0%);}
+}
+
+@keyframes scale{
+  0%{transform: scale(1);}
+  50%{transform: scale(.8);}
+  100%{transform: scale(1);}
+}
