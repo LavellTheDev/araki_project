@@ -12,9 +12,9 @@ function animateFrom(elem, direction) {
   }
   gsap.fromTo(
     elem,
-    { x: x, y: y, autoAlpha: 0 },
+    { x: x, y: 300, autoAlpha: 0 },
     {
-      duration: 1.25,
+      duration: 2.25,
       x: 0,
       y: 0,
       autoAlpha: 1,
