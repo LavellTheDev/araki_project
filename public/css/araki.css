@@ -2,6 +2,11 @@ body {
   background-image: url("../image/tsunami_halfed.png");
 }
 
+{
+  background-image: url("../image/tsunami_halfed.png");
+}
+
+
 .ipsType_right {
   text-align: right;
 }

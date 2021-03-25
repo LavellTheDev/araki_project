@@ -4,6 +4,9 @@ body {
   padding: 0;
 }
 
+hr{
+  border: 1px solid rgba(0,0,0,0.4);
+}
 
 #menuToggle
 {
@@ -11,7 +14,7 @@ body {
   position: relative;
   top: 50px;
   left: 50px;
-
+  width: 50%;
   z-index: 1;
 
   -webkit-user-select: none;
@@ -60,7 +63,7 @@ body {
   margin-bottom: 5px;
   position: relative;
 
-  background: #644536;
+  background: #000;
   border-radius: 3px;
 
   z-index: 1;
@@ -126,10 +129,10 @@ body {
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
-  transform-origin: 0% 0%;
+  /* transform-origin: 0% 0%;
   transform: translate(-100%, 0);
 
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); */
 }
 
 #menu li
