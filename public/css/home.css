@@ -6,6 +6,18 @@ body {
   background-image: url("../image/tsunami_halfed.png");
 }
 
+.waves, .waves2, .waves3{
+  position: absolute;
+}
+
+.waves2{
+  top: -50px;
+}
+
+.waves3{
+ top: -40px;
+}
+
 .floating {
   animation: hover 5s infinite;
   animation-timing-function: ease;
