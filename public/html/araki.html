@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../css/style.css" />
     <link href="../css/tailwind.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/araki.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,700;0,800;1,400;1,600;1,700&display=swap"
@@ -15,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Site Name</title>
+    <title>Araki Project</title>
   </head>
   <body>
     <section class="wrapper">
@@ -28,18 +29,23 @@
               <span class="ml-3 text-xl">The Website</span>
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-              <a class="mr-5 hover:text-gray-900">Home</a>
-              <a class="mr-5 hover:text-gray-900">About</a>
-              <a class="mr-5 hover:text-gray-900">Araki Project</a>
-              <a class="mr-5 hover:text-gray-900">Favored Terrain</a>
-              <a class="mr-5 hover:text-gray-900">Blog</a>
+              <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+              <a href="about.html" class="mr-5 hover:text-gray-900">About</a>
+              <a href="araki.html" class="mr-5 hover:text-gray-900">Araki Project</a>
+              <a href="favored.html" class="mr-5 hover:text-gray-900">Favored Terrain</a>
+              <a href="blog.html" class="mr-5 hover:text-gray-900">Blog</a>
             </nav>
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
           </div>
       </header>
-      <h1>ARAKI TIMELINE GOES HERE W/IMAGES AND INFO</h1>
-      <section class="text-gray-600 body-font">
+      <section class="hero p-8 text-center bg-yellow-50">
+        <h1 class="text-6xl my-8 font-medium">Araki Project</h1>
+        <p class="text-lg"> The Araki Project is a look at Japanese culture through my eyes, and how I’ve seen the different sides of it in terms of what is traditional and not. My grandmother did not live a traditional Japanese life, and Western views impacted her life greatly. Beyond this story, there are many stories that may not be discussed much through history, and it is my plan to bring light to such events. </p>
+      </section>
+      <img src="" alt="wave"> <!-- this is where the background wave will go -->
+      <section class="features text-gray-600 body-font bg-yellow-100">
+        <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
           <div
             class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto"
@@ -47,7 +53,7 @@
             <div
               class="h-full w-6 absolute inset-0 flex items-center justify-center"
             >
-              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              <div class="h-full w-1 bg-gray-400 pointer-events-none"></div>
             </div>
             <div
               class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm"
@@ -55,24 +61,14 @@
               1
             </div>
             <div
-              class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+              class="featured-image-container gs_reveal gs_reveal_fromLeft card-container flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
             >
               <div
-                class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
+                class="overflow-hidden flex-shrink-0 w-44 h-44 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
               >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-12 h-12"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                </svg>
+                <img src="https://images.unsplash.com/photo-1601823984263-b87b59798b70?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80" alt="">
               </div>
-              <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <div class="ipsType_left flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
                   Shooting Stars
                 </h2>
@@ -87,7 +83,7 @@
             <div
               class="h-full w-6 absolute inset-0 flex items-center justify-center"
             >
-              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              <div class="h-full w-1 bg-gray-400 pointer-events-none"></div>
             </div>
             <div
               class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm"
@@ -95,22 +91,12 @@
               2
             </div>
             <div
-              class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+              class="featured-image-container gs_reveal gs_reveal_fromRight card-container flex-grow md:pl-8 pl-6 flex sm:items-center items-end flex-col sm:flex-row"
             >
               <div
-                class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
+                class="overflow-hidden flex-shrink-0 w-44 h-44 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
               >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-12 h-12"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
+                  <img src="https://images.unsplash.com/photo-1522850959516-58f958dde2c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="">
               </div>
               <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
@@ -127,7 +113,7 @@
             <div
               class="h-full w-6 absolute inset-0 flex items-center justify-center"
             >
-              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              <div class="h-full w-1 bg-gray-400 pointer-events-none"></div>
             </div>
             <div
               class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm"
@@ -135,23 +121,12 @@
               3
             </div>
             <div
-              class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+              class="featured-image-container gs_reveal gs_reveal_fromLeft card-container flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
             >
               <div
-                class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
+                class="overflow-hidden flex-shrink-0 w-44 h-44 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
               >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-12 h-12"
-                  viewBox="0 0 24 24"
-                >
-                  <circle cx="12" cy="5" r="3"></circle>
-                  <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-                </svg>
+                <img class="rounded" src="https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=924&q=80" alt="">
               </div>
               <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
@@ -168,7 +143,7 @@
             <div
               class="h-full w-6 absolute inset-0 flex items-center justify-center"
             >
-              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              <div class="h-full w-1 bg-gray-400 pointer-events-none"></div>
             </div>
             <div
               class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm"
@@ -176,23 +151,13 @@
               4
             </div>
             <div
-              class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+              class="featured-image-container gs_reveal gs_reveal_fromRight card-container flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
             >
               <div
-                class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
+                class="overflow-hidden flex-shrink-0 w-44 h-44 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
               >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-12 h-12"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
+                <img src="https://images.unsplash.com/photo-1511845241939-402489d3d670?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80">
+
               </div>
               <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
@@ -206,6 +171,7 @@
             </div>
           </div>
         </div>
+      </div>
       </section>
       <footer class="text-gray-600 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
@@ -245,5 +211,10 @@
         </div>
       </footer>
     </section>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="../../src/js/araki.js" charset="utf-8"></script>
   </body>
 </html>
