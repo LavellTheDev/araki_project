@@ -1,14 +1,71 @@
 body {
   background-image: url("../image/tsunami_halfed.png");
+  background-color: #232020;
   margin: 0;
   padding: 0;
+}
+
+footer{
+  background-image: url("../image/tsunami_halfed.png");
 }
 
 hr{
   border: 1px solid rgba(0,0,0,0.4);
 }
 
-#menuToggle
+.work-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#menu-toggle:checked + #menu {
+    display: block;
+}
+
+.hover\:grow {
+    transition: all 0.3s;
+    transform: scale(1);
+}
+
+.hover\:grow:hover {
+    transform: scale(1.02);
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #000;
+    /*Set to match the Tailwind colour you want the active one to be */
+}
+
+/* #menuToggle
 {
   display: block;
   position: relative;
@@ -50,12 +107,12 @@ hr{
   z-index: 2; /* and place it over the hamburger */
 
   -webkit-touch-callout: none;
-}
+} */
 
 /*
  * Just a quick hamburger
  */
-#menuToggle span
+/* #menuToggle span
 {
   display: block;
   width: 33px;
@@ -73,9 +130,9 @@ hr{
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
-}
+} */
 
-#menuToggle span:first-child
+/* #menuToggle span:first-child
 {
   transform-origin: 0% 0%;
 }
@@ -83,41 +140,41 @@ hr{
 #menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
-}
+} */
 
 /*
  * Transform all the slices of hamburger
  * into a crossmark.
  */
-#menuToggle input:checked ~ span
+/* #menuToggle input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
-}
+} */
 
 /*
  * But let's hide the middle one.
  */
-#menuToggle input:checked ~ span:nth-last-child(3)
+/* #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
-}
+} */
 
 /*
  * Ohyeah and the last one should go the other direction
  */
-#menuToggle input:checked ~ span:nth-last-child(2)
+/* #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
-}
+} */
 
 /*
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu
+/* #menu
 {
   position: absolute;
   width: 300px;
@@ -126,7 +183,7 @@ hr{
   padding-top: 125px;
 
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased; */
   /* to stop flickering of text in safari */
 
   /* transform-origin: 0% 0%;
@@ -135,16 +192,16 @@ hr{
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); */
 }
 
-#menu li
+/* #menu li
 {
   padding: 10px 0;
   font-size: 22px;
-}
+} */
 
 /*
  * And let's slide it in from the left
  */
-#menuToggle input:checked ~ ul
+/* #menuToggle input:checked ~ ul
 {
   transform: none;
-}
+}  */

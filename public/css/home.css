@@ -1,5 +1,5 @@
 body {
-  background-image: url("../image/tsunami_halfed.png");
+  /* background-image: url("../image/tsunami_halfed.png"); */
 }
 
 #araki{
@@ -8,6 +8,7 @@ body {
 
 .waves, .waves2, .waves3{
   position: absolute;
+  z-index: -10px;
 }
 
 .waves2{
