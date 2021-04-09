@@ -1,12 +1,11 @@
 body {
-  background-image: url("../image/tsunami_halfed.png");
-  background-color: #232020;
+  /* background-image: url("../image/tsunami_halfed.png"); */
+  background-color: #FFF;
   margin: 0;
   padding: 0;
 }
 
 footer{
-  background-image: url("../image/tsunami_halfed.png");
 }
 
 hr{
