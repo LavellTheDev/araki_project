@@ -1,5 +1,5 @@
 body {
-  background-image: url("../image/tsunami_halfed.png");
+  /* background-image: url("../image/tsunami_halfed.png"); */
   margin: 0;
   padding: 0;
 }
@@ -8,7 +8,14 @@ hr{
   border: 1px solid rgba(0,0,0,0.4);
 }
 
-#menuToggle
+.banner{
+  max-width: 1600px;
+  height: 80vh;
+  background-color: blue;
+}
+
+/*This is old stuff that was for a toggling nav bar*/
+/* #menuToggle
 {
   display: block;
   position: relative;
@@ -147,4 +154,4 @@ hr{
 #menuToggle input:checked ~ ul
 {
   transform: none;
-}
+} */
