@@ -9,9 +9,9 @@ hr{
 }
 
 .banner{
-  max-width: 1600px;
+  background-image: url("../image/marvel.jpg");
   height: 80vh;
-  background-color: blue;
+  background-position: center;
 }
 
 
