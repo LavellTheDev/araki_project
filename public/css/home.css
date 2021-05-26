@@ -19,6 +19,10 @@ body {
  top: -40px;
 }
 
+/* p{
+  border: 2px solid black;
+  padding: 1rem;
+} */
 /* .floating {
   animation: hover 5s infinite;
   animation-timing-function: ease;
